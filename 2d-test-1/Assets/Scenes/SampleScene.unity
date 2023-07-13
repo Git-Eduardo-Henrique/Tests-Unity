@@ -137,7 +137,7 @@ GameObject:
   - component: {fileID: 263897185}
   - component: {fileID: 263897187}
   m_Layer: 0
-  m_Name: Circle
+  m_Name: Player
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -259,8 +259,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4587f8c84ef5e1342a01b856bef672e6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0
-  rig: {fileID: 0}
+  speed: 5
+  jumpforce: 5
+  rig: {fileID: 263897185}
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
